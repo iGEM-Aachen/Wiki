@@ -1,0 +1,20 @@
+.container{
+	width:960:px;
+}
+.blog-masterhead{
+	background-color:#2eace9;
+	box-shadow: inset 0 -2px 5px rgba(0,0,0,0.1);
+}
+.blog-nav-item {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	font-weight:300;
+	color: red;
+	text-decoration: none;
+}
+.blog-nav-item:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
