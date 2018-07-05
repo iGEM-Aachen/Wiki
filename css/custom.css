@@ -18,6 +18,7 @@
 	font-weight: bold;
 	color: white;
 }
+<!---define distance to screen-borders for classes="seitentext" --->
 .seitentext {
 	margin-left: 10em;
 	margin-right: 10em;
