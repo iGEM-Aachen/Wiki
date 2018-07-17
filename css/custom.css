@@ -1,5 +1,8 @@
+<!---padding weg gemacht, da das Bild welches oben immer bei jeder Seite sein soll sonst nicht durchgeht, sondern mit 15px abstand vom rand eingepadded ist --->
+
 .container{
-	width:960:px;
+	padding: 0px;
+	background-color: green;
 }
 .blog-masterhead{
 	background-color:#2eace9;
@@ -24,10 +27,17 @@
 	margin-right: 10em;
 }
 .jumbotron {
-	background-color:#2eace9;
-	color:white;
+	background-color: #7688A9;
+	color:black;
 }
-<!---padding weg gemacht, da das Bild welches oben immer bei jeder Seite sein soll sonst nicht durchgeht, sondern mit 15px abstand vom rand eingepadded ist --->
-.container { 
-  padding: 0px;
+div {
+	background-color: #7688A9;
+}
+
+body {
+	background-color: grey;
+}
+
+p {
+	background-color: #FFCDAA;
 }
