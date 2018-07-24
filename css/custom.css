@@ -27,8 +27,9 @@
 	margin-right: 10em;
 }
 .jumbotron {
-	background-color: #7688A9;
+	background-color: green!important;
 	color:black;
+	font-family: 'Merienda'!important;
 }
 div {
 	background-color: #7688A9;
@@ -36,8 +37,16 @@ div {
 
 body {
 	background-color: grey;
+	font-family: 'Merienda'!important;
 }
-
+.tester {
+	font-family: 'Merienda';
+}
 p {
 	background-color: #FFCDAA;
+	font-family: 'Merienda';
 }
+a {
+	
+	}
+
