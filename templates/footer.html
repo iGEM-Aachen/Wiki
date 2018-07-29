@@ -1,5 +1,30 @@
 {{js/jquery-3.3.1.min}}
 {{js/popper.min}}
 {{js/bootstrap.min}}
+
+ <!-- back-to-the-top button  (geklaut von Aachen 2017, 
+ noch nicht verstanden, ausser das JavaScrip verwendet wird, 
+ sollte eigentlich auch dafür sorgen, dass der knopf eingeblendet wird)-->
+	
+	    <script>
+       $(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    }); 
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+	}); 
+
   </body>
 </html>
