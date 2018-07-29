@@ -46,6 +46,7 @@ p {
 	background-color: #FFCDAA;
 	font-family: 'Merienda';
 }
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <!---padding weg gemacht, da das Bild welches oben immer bei jeder Seite sein soll sonst nicht durchgeht, sondern mit 15px abstand vom rand eingepadded ist --->
@@ -53,4 +54,8 @@ p {
   padding: 0px;
 }
 >>>>>>> Stashed changes
+=======
+a {
+	
+	}
 
