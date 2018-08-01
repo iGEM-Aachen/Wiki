@@ -21,18 +21,14 @@
 	font-weight: bold;
 	color: white;
 }
-<!---define distance to screen-borders for classes="seitentext" --->
-.seitentext {
-	margin-left: 10em;
-	margin-right: 10em;
-}
+
 .jumbotron {
 	background-color: #FFDBC0;
 	color:black;
 
 }
 div#content *{
-	background-color: #FFDBC0;
+	background-color: white;
 	font-family: Merienda!important;
 }
 
@@ -41,8 +37,4 @@ div#content *{
 body {
 	background-color: #FFDBC0;
 	
-}
-
-*{
-	font-family:Merienda;
 }
