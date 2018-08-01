@@ -27,26 +27,22 @@
 	margin-right: 10em;
 }
 .jumbotron {
-	background-color: green!important;
+	background-color: #FFDBC0;
 	color:black;
-	font-family: 'Merienda'!important;
+
 }
-div {
-	background-color: #7688A9;
+div#content *{
+	background-color: #FFDBC0;
+	font-family: Merienda!important;
 }
+
+#content *{}
 
 body {
-	background-color: grey;
-	font-family: 'Merienda'!important;
-}
-.tester {
-	font-family: 'Merienda';
-}
-p {
-	background-color: #FFCDAA;
-	font-family: 'Merienda';
-}
-a {
+	background-color: #FFDBC0;
 	
-	}
+}
 
+*{
+	font-family:Merienda;
+}
