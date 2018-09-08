@@ -1,6 +1,6 @@
 {{templates/header}}
 <div class="container">      
-<p><h1 id="top">große Überschrift</h1></p>
+<p><h1 id="up">große Überschrift</h1></p>
 <a>testgggggggggggg</a>
 <p><h2>klggggeine Überschrift</h2></p>
 <p><h3>klggggeine Überschrift</h3></p>
@@ -21,27 +21,30 @@
 	nfpq <br> </br>
 	p45j <br> </br>
 	fnpa <br> </br>
-	poef <br> </br>
+	poef <br> </br> 
 	pjgj4 <br> </br>
 	jpnf <br> </br>
 	poqjer <br> </br>
 	po54wk <br> </br>
 </div>
-<!--<a href="#top">back to top</a> -->
-</script>
-	
-	<button onclick="topFunction()" id="myBtn" title="Go to top">up</button>
 
 
-	<script>
-	
-	
+<!--einfache Referenz auf id ="up": CSS muss eingebunden werden
+<a href="#up" id="myBtn" class="back-to-top" >&#x1f845;</a> -->
 
-	// When the user clicks on the button, scroll to the top of the document
-	function topFunction() {
-		document.body.scrollTop = 0;
-		document.documentElement.scrollTop = 0;
+<script>
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("myBtn").style.color = "red";
+		} else {
+			document.getElementById("myBtn").style.color = "green";
+		}
 	}
-	</script> -->
+
+	
+	</script>
+	
 
 {{templates/footer}}
