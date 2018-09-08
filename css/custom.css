@@ -30,6 +30,7 @@
 div#content *{
 	background-color: white;
 	font-family: 'Lato', sans-serif!important;
+	text-align: justify;
 }
 div#content nav{
 	background-color: white;
