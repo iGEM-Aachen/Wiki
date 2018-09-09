@@ -32,6 +32,21 @@ div#content *{
 	font-family: Merienda!important;
 }
 
+div#content footer {
+	background-color: #222!important;
+	font-family: Merienda!important;
+}
+
+div#content footer div {
+	background-color: #222;
+	margin: 0;
+}
+
+div#content footer p {
+	background-color:#222;
+	margin: 0;
+}
+
 <!-- back-to-top -->	
 
 /*.scrollup {
