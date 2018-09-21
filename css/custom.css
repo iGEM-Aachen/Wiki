@@ -27,6 +27,10 @@
   padding-right:1rem;
 }
 
+body#content .bg-faded{
+	background-color: white;
+}
+
 div#content *{
 	background-color: white;
 	font-family: 'Source Sans Pro', sans-serif!important;
