@@ -22,6 +22,11 @@
 	color: white;
 }
 
+.navbar-nav > li{
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
 div#content *{
 	background-color: white;
 	font-family: 'Source Sans Pro', sans-serif!important;
@@ -46,10 +51,11 @@ div#content h3 {
 }
 
 h1{
-	font-size: 70px!important;
+	font-size: 50px!important;
 	font-weight: bold!important;
 	color: #FFB400!important;
-	padding-bottom:10px!important;
+	padding-bottom:0px!important;
+	font-style: black!important;
 }
 h2{
 	font-size: 20px!important;
@@ -65,7 +71,7 @@ h3 {
 
 p {
 	font-size: 15px!important;
-	color:#2e2e2e!important;
+	color:#2A2E33!important;
 }
 
 hr {
