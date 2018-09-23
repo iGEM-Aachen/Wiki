@@ -22,6 +22,7 @@
 	color: white;
 }
 
+/*padding navbar */
 .navbar-nav > li{
   padding-left:1rem;
   padding-right:1rem;
@@ -52,6 +53,18 @@ div#content h2 {
 }
 div#content h3 {
 	font-family: 'Source Sans Pro', sans-serif!important;
+}
+
+.floated-r{
+	float: right;
+    width: 50%;
+    margin:1rem 1rem 1rem 1rem;
+}
+
+.floated-l{
+	float: left;
+    width: 50%;
+    margin:1rem 1rem 1rem 1rem;
 }
 
 h1{
