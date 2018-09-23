@@ -151,3 +151,10 @@ div#content p.key_achiev{
 .footer-layout {
 	height: 100px;
 }
+
+.img-whole {
+	height: auto;
+	padding-bottom: 3em;
+	max-width: 90vw;
+	max-height: 90vh;
+}
