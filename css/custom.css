@@ -2,7 +2,6 @@
 
 .container{ 
 	padding: 0px;
-	background-color: red;
 }
 .blog-masterhead{
 	background-color:#2eace9;
@@ -22,6 +21,28 @@
 	color: white;
 }
 
+.navbar .navbar-brand img{
+	height: 45px;
+	margin: 10px;
+}
+
+.navbar-toggler{
+	top: 50%;
+	transform: translate(0%,-50%);
+}
+
+.navbar  .dropdown-item {
+	font-size: larger;
+}
+
+.navbar  .nav-item {
+	font-size: x-large;
+}
+
+.navbar {
+	height: 75px;
+}
+
 /*padding navbar */
 .navbar-nav > li{
   padding-left:1rem;
@@ -33,7 +54,6 @@ body#content .bg-faded{
 }
 
 div#content *{
-	background-color: white;
 	font-family: 'Source Sans Pro', sans-serif!important;
 	text-align: justify;
 }
@@ -128,7 +148,6 @@ div#content .jumbotron{
 	padding:10px 10px 10px 10px;
 	margin-bottom:10px;
 	background-color:grey;
-	
 }
 
 /* key achievement schrift css */
