@@ -2,7 +2,6 @@
 
 .container{ 
 	padding: 0px;
-	background-color: red;
 }
 .blog-masterhead{
 	background-color:#2eace9;
@@ -33,7 +32,6 @@ body#content .bg-faded{
 }
 
 div#content *{
-	background-color: white;
 	font-family: 'Source Sans Pro', sans-serif!important;
 	text-align: justify;
 }
@@ -153,15 +151,11 @@ div#content p.key_achiev{
 
 .back-to-top {
 	position: fixed;
-	right: 4px;
-	bottom: 4px;
-	border: black 1px solid;
-	border-radius: 2em;
-	padding: 0.5em 1em;
-	font-size: 4em;
-	
-	
-	
+	right: 10px;
+	bottom: 10px;
+	display:none;
+	opacity:0.9;
+	background-color: green;
 }
 
 
