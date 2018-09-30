@@ -4,7 +4,7 @@
 	padding: 0px;
 }
 .blog-masterhead{
-	background-color:#2eace9;
+	background-color: #2A2E33;
 	box-shadow: inset 0 -2px 5px rgba(0,0,0,0.1);
 }
 .blog-nav-item {
@@ -19,16 +19,19 @@
 	text-decoration: none;
 	font-weight: bold;
 	color: white;
+	
 }
 
 .navbar .navbar-brand img{
 	height: 45px;
 	margin: 10px;
+	
 }
 
 .navbar-toggler{
 	top: 50%;
 	transform: translate(0%,-50%);
+	
 }
 
 .navbar  .dropdown-item {
@@ -41,12 +44,15 @@
 
 .navbar {
 	height: 75px;
+
+	
 }
 
 /*padding navbar */
 .navbar-nav > li{
   padding-left:1rem;
   padding-right:1rem;
+
 }
 
 body#content .bg-faded{
@@ -187,6 +193,40 @@ div#content p.key_achiev{
 
 .footer-layout {
 	height: 100px;
+}
+
+.Linker{
+	height: 30vh;
+	padding: 1em;
+	}
+	
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+  opacity: 1;
+  }
+
+  .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .img-whole {
