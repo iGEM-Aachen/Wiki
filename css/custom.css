@@ -2,7 +2,6 @@
 
 .container{ 
 	padding: 0px;
-	background-color: red;
 }
 .blog-masterhead{
 	background-color:#2eace9;
@@ -16,6 +15,7 @@
 	color: green;
 	text-decoration: none;
 }
+
 .blog-nav-item:hover {
 	text-decoration: none;
 	font-weight: bold;
@@ -24,8 +24,8 @@
 
 /*padding navbar */
 .navbar-nav > li{
-  padding-left:1rem;
-  padding-right:1rem;
+  padding-left:2rem;
+  padding-right:2rem;
 }
 
 body#content .bg-faded{
@@ -54,6 +54,10 @@ div#content h2 {
 div#content h3 {
 	font-family: 'Source Sans Pro', sans-serif!important;
 }
+div#content h4 {
+	font-family: 'Crimson Text', serif!important;
+	font-style: italic;
+}
 
 .floated-m{
 	width: 100%; 
@@ -72,6 +76,17 @@ div#content h3 {
     margin:1rem 1rem 1rem 1rem;
 }
 
+.floated-h{
+	float: left;
+	height:70px;
+    margin:1rem 1rem 1rem 1rem;
+}
+
+.toppic{
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+
 h1{
 	font-size: 50px!important;
 	font-weight: bold!important;
@@ -86,13 +101,19 @@ h2{
 }
 
 h3 {
-	font-size: 40px!important;
+	font-size: 25px!important;
 	color:#FFB400!important;
 	font-weight: bold!important;
 }
+h4{
+	font-size: 15px!important;
+	color: #62676B!important;
+	font-weight: 200!important;
+}
+
 
 p {
-	font-size: 15px!important;
+	font-size: 20px!important;
 	color:#2A2E33!important;
 }
 
@@ -127,7 +148,8 @@ div#content footer p {
 div#content .jumbotron{
 	padding:10px 10px 10px 10px;
 	margin-bottom:10px;
-	background-color:grey;
+	background-color:white;
+	border: solid #222 3px;
 	
 }
 
@@ -136,6 +158,14 @@ div#content .jumbotron{
 div#content p.key_achiev{
 	background-color:grey;
 	color: white!important;
+}
+div#content p.key_achievh{
+	font-size: 40px!important;
+	font-weight: bold!important;
+	margin:0px 0px 0px 0px!important;
+	color: #FFB400!important;
+	padding:0px 0px 0px 0px !important;
+	font-style: black!important;
 }
 /* nach oben button */	
 
