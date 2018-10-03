@@ -85,34 +85,6 @@ div#content h4 {
 	font-style: italic;
 }
 
-.floated-m{
-	width: 100%; 
-	margin: 1rem 0rem 1rem 0rem;
-}
-	
-.floated-r{
-	float: right;
-    width: 50%;
-    margin:1rem 1rem 1rem 1rem;
-}
-
-.floated-l{
-	float: left;
-    width: 50%;
-    margin:1rem 1rem 1rem 1rem;
-}
-
-.floated-h{
-	float: left;
-	height:70px;
-    margin:1rem 1rem 1rem 1rem;
-}
-
-.toppic{
-	background-repeat:no-repeat;
-    background-size:cover;
-}
-
 h1{
 	font-size: 50px!important;
 	font-weight: bold!important;
@@ -146,10 +118,43 @@ p {
 hr {
 	border-color: #484848!important; /*color change for chrome and safari*/
 	background-color:#484848!important; /*firefox und opera*/
-	color:!important; /*IE7+ */
+	color:#484848!important; /*IE7+ */
 	padding: 1px!important;
 	
 }
+
+
+.floated-m{
+	width: 100%; 
+	margin: 1rem 0rem 1rem 0rem;
+}
+	
+.floated-r{
+	float: right;
+	display:inline!important;
+	text-align: center!important;
+    width: 50%;
+    margin:10px 10px 10px 10px!important;
+	padding: 10px;
+}
+
+.floated-l{
+	float: left;
+    width: 50%;
+    margin:1rem 1rem 1rem 1rem;
+}
+
+.floated-h{
+	float: left;
+	height:70px;
+    margin:1rem 1rem 1rem 1rem;
+}
+
+.toppic{
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+
 .centered {
 	margin-left: auto;
 	margin-right: auto;
@@ -174,7 +179,8 @@ div#content footer p {
 div#content .jumbotron{
 	padding:10px 10px 10px 10px;
 	margin-bottom:10px;
-	background-color:grey;
+	background-color:white;
+	border: 2.5px solid #222;
 	
 }
 
