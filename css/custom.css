@@ -125,8 +125,11 @@ hr {
 
 
 .floated-m{
+	float:left;
 	width: 100%; 
-	margin: 1rem 0rem 1rem 0rem;
+	display:inline!important;
+	text-align: center!important;
+    margin:10px 10px 10px 10px;
 }
 	
 .floated-r{
@@ -135,7 +138,7 @@ hr {
 	text-align: center!important;
     width: 50%;
     margin:10px 10px 10px 10px!important;
-	padding: 10px;
+
 }
 
 .floated-l{
@@ -143,6 +146,24 @@ hr {
     width: 50%;
     margin:1rem 1rem 1rem 1rem;
 }
+
+figure.floated-r img{
+	max-height:300px;
+}
+
+figure.floated-l img{
+	max-height:300px;
+}
+
+figure.floated-m img{
+	max-height:500px;
+}
+
+figcaption{
+	text-align: center!important;
+}
+
+
 
 .floated-h{
 	float: left;
