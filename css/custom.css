@@ -284,14 +284,22 @@ div#content p.key_achievh{
 }
 
 .img-whole {
-	height: auto;
 	padding-bottom: 3em;
-	max-width: 90vw;
-	max-height: 90vh;
+	justify-content: center;
+	width: 100%;
+	position: relative;
 }
 
-table, th, td {
-    border: 1px solid black;
+.cont_whole{
+	padding-left:0!important;
+	padding-right:0!important;
+}
+
+.sponsor{
+	padding-bottom: 2vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 2vh;
 }
 
 #popupBoxOnePosition{
