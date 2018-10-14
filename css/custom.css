@@ -104,7 +104,7 @@ h3 {
 	font-weight: bold!important;
 }
 h4{
-	font-size: 15px!important;
+	font-size: 25px!important;
 	color: #62676B!important;
 	font-weight: 200!important;
 }
@@ -125,16 +125,13 @@ hr {
 
 
 .floated-m{
-	float:left;
 	width: 100%; 
-	display:inline!important;
 	text-align: center!important;
     margin:10px 10px 10px 10px;
 }
 	
 .floated-r{
 	float: right;
-	display:inline!important;
 	text-align: center!important;
     width: 50%;
     margin:10px 10px 10px 10px!important;
@@ -172,9 +169,12 @@ figcaption{
 }
 
 .toppic{
-	background-repeat:no-repeat;
-    background-size:cover;
-	height: 150px;
+	position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    background-position: 0% 45%;
+	height:200px;
 }
 
 .centered {
@@ -288,6 +288,12 @@ div#content p.key_achievh{
 	justify-content: center;
 	width: 100%;
 	position: relative;
+}
+
+.centerimg{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cont_whole{
