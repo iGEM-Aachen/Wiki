@@ -196,6 +196,7 @@ div#content footer div {
 div#content footer p {
 	background-color:#222;
 	margin: 0;
+	color:white!important;
 }
 
 div#content .jumbotron{
@@ -220,19 +221,7 @@ div#content p.key_achievh{
 	padding:0px 0px 0px 0px !important;
 	font-style: black!important;
 }
-/* nach oben button */	
 
-/*.scrollup {
-    padding: 5px;
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 50px;
-    right: 100px;
-    display: none;
-    text-indent: 0px;
-    background-color: #aa0044;
-}*/
 
 .back-to-top {
 	position: fixed;
@@ -321,3 +310,4 @@ width: 550px; margin: 50px auto; text-align: left;
 .popupBoxContent{
 background-color: #FFF; padding: 15px;
 }
+
