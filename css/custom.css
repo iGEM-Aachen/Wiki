@@ -332,3 +332,25 @@ width: 550px; margin: 50px auto; text-align: left;
 .popupBoxContent{
 background-color: #FFF; padding: 15px;
 }
+
+.background-yellow {
+	background-color: #FFB400;
+}
+
+.background-gray {
+	background-color: #62676B;
+}
+
+.background-yellow p, .background-gray p {
+	color: white!important;
+}
+
+.indexbox {
+	font-size: 20px!important;
+	min-height: 300px;
+}
+
+.indexbox h3  {
+	padding-top: 40px!important;
+}
+	
