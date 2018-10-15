@@ -186,7 +186,7 @@ figcaption{
 	margin-right: auto;
 	float: none;
 }
-
+/*footer classes*/
 div#content footer {
 	background-color: #222!important;
 	font-family: Merienda!important;
@@ -200,6 +200,10 @@ div#content footer div {
 div#content footer p {
 	background-color:#222;
 	margin: 0;
+	color:white!important;
+}
+div#content footer a {
+	color:white!important;
 }
 
 div#content .jumbotron{
@@ -224,24 +228,12 @@ div#content p.key_achievh{
 	padding:0px 0px 0px 0px !important;
 	font-style: black!important;
 }
-/* nach oben button */	
 
-/*.scrollup {
-    padding: 5px;
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 50px;
-    right: 100px;
-    display: none;
-    text-indent: 0px;
-    background-color: #aa0044;
-}*/
 
 .back-to-top {
 	position: fixed;
 	right: 10px;
-	bottom: 130px;
+	bottom: 170px;
 	display:none;
 	opacity:0.9;
 	background-color: green;
@@ -250,7 +242,7 @@ div#content p.key_achievh{
 
 
 .footer-layout {
-	height: 100px;
+	height: 140px;
 }
 
 .Linker{
