@@ -115,6 +115,11 @@ p {
 	color:#2A2E33!important;
 }
 
+p{
+	font-size: 20px!important;
+	color:#2A2E33!important;
+}
+
 hr {
 	border-color: #484848!important; /*color change for chrome and safari*/
 	background-color:#484848!important; /*firefox und opera*/
@@ -134,14 +139,14 @@ hr {
 	float: right;
 	text-align: center!important;
     width: 50%;
-    margin:10px 10px 10px 10px!important;
+    padding:0vh 2vw 0vh 2vw!important;
 
 }
 
 .floated-l{
 	float: left;
     width: 50%;
-    margin:1rem 1rem 1rem 1rem;
+    padding:0vh 2vw 0vh 2vw!important;;
 }
 
 figure.floated-r img{
