@@ -289,6 +289,11 @@ div#content p.key_achievh{
 	position: relative;
 }
 
+.img-index {
+	width: 100%;
+	padding-bottom: 3em;
+}
+
 .centerimg{
 	display: block;
     margin-left: auto;
