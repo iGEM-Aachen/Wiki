@@ -28,7 +28,7 @@
 
 .navbar .navbar-brand img{
 	height: 45px;
-	margin: 10px;
+	margin: 0px;
 	
 }
 
@@ -54,7 +54,7 @@
 }
 
 .navbar {
-	height: 4rem;
+	height: 45px;
 }
 
 /*padding navbar */
