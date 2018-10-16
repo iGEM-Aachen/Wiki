@@ -239,7 +239,7 @@ div#content p.key_achievh{
 }
 
 
-.back-to-top {
+#back-to-top-Btn {
 	position: fixed;
 	right: 10px;
 	bottom: 170px;
@@ -248,7 +248,12 @@ div#content p.key_achievh{
 	background-color: green;
 }
 
-
+#back-to-top-Btn img {
+	width: 20%; 
+	height: auto; 
+	background-color: transparent; 
+	float:right;
+}
 
 .footer-layout {
 	height: 140px;
