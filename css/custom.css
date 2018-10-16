@@ -181,7 +181,7 @@ figcaption{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 45%;
-	height:350px;
+	padding-bottom: 4vh;
 }
 
 .centered {
