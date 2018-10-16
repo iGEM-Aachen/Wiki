@@ -46,10 +46,15 @@
 	font-size: x-large;
 }
 
+#navbarwrapper {
+	width:100%;
+	padding:1vw;
+	z-index: 10;
+    position: fixed;
+}
+
 .navbar {
 	height: 8vh;
-
-	
 }
 
 /*padding navbar */
