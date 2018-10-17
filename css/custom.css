@@ -110,6 +110,7 @@ h3 {
 	font-size: 25px!important;
 	color:#55779E!important;
 	font-weight: bold!important;
+	text-transform: capitalize!important;
 }
 h4{
 	font-size: 22px!important;
@@ -249,7 +250,7 @@ div#content p.key_achievh{
 }
 
 
-.back-to-top {
+#back-to-top-Btn {
 	position: fixed;
 	right: 10px;
 	bottom: 170px;
@@ -258,10 +259,16 @@ div#content p.key_achievh{
 	background-color: green;
 }
 
-
+#back-to-top-Btn img {
+	width: 20%; 
+	height: auto; 
+	background-color: transparent; 
+	float:right;
+}
 
 .footer-layout {
 	height: 140px;
+	margin-top: 4vh;
 }
 
 .Linker{
