@@ -391,3 +391,7 @@ background-color: #FFF; padding: 15px;
 	color:white!important;
 	text-align: center!important;
 }
+
+.protocols a{
+	font-size:15pt;
+}
