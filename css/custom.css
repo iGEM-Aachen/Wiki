@@ -359,15 +359,12 @@ width: 550px; margin: 50px auto; text-align: left;
 background-color: #FFF; padding: 15px;
 }
 
-.background-yellow {
-	background-color: #FFB400;
+.background-green {
+	background-color: #A3CFC5;
 }
 
-.background-gray {
-	background-color: #62676B;
-}
 
-.background-yellow p, .background-gray p {
+.background-green p {
 	color: white!important;
 }
 
